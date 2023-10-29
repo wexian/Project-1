@@ -8,6 +8,7 @@ html {
 body {
     font-family: 'Inter', sans-serif;
     background: #FFFEFE;
+    overflow-x: hidden;
 }
 
 .font-light {
@@ -38,3 +39,16 @@ body {
     background: #232222 !important;
 }
 
+.dropdown-toggle {
+    border: none;
+    background: none;
+    text-decoration: underline;
+}
+
+.shop-now {
+    background: white;
+    padding: 15px 30px 15px 30px;
+    font-size: 1em;
+    align-items: center;
+    width: 50%;
+}
