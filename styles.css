@@ -59,3 +59,11 @@ body {
     border: 1px solid white;
     transition: .4s;
 }
+
+input {
+    border: 1px solid black;
+}
+
+.signin-button {
+    background: white;
+}
