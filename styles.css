@@ -52,3 +52,10 @@ body {
     align-items: center;
     width: 50%;
 }
+
+.shop-now:hover {
+    background: black;
+    color: white;
+    border: 1px solid white;
+    transition: .4s;
+}
