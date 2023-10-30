@@ -67,3 +67,72 @@ input {
 .signin-button {
     background: white;
 }
+
+hr {
+    border: 2px solid black;
+    width: 100vw;
+}
+
+
+@media only screen and (min-width: 1440px) {
+    .hero-image {
+        margin-left: 3.625rem;
+    }
+
+    .about-image {
+        margin-left: 1rem;
+    }
+
+    .about-description {
+        margin-left: 14px;
+    }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 768px) {
+    .shop-now {
+        background: white;
+        padding: 10px 20px 10px 20px;
+        font-size: 1em;
+        align-items: center;
+        width: 75%;
+    }
+
+    .about-image {
+        margin-left: 0.688rem;
+    }
+
+    .about-description {
+        margin-left: 14px;
+    }
+}
+
+@media only screen and (max-width: 390px) {
+    .shop-now {
+        background: white;
+        padding: 10px 20px 10px 20px;
+        font-size: 11px;
+        align-items: center;
+        width: 100%;
+    }
+
+    .carousel-inner {
+        text-align: center;
+    }
+
+    .TEKLA {
+        font-size: 1em;
+    }
+
+    .about-image {
+        margin-left: 0.688rem;
+    }
+
+    .about-description {
+        padding: 5
+    }
+
+    .explore-cta {
+        font-size: 0.563rem;
+        margin-left: 12px;
+    }
+}
